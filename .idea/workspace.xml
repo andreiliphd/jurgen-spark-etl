@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="Added configuration file for EMR.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
-    </list>
+    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="Removed Git logs." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +39,7 @@
       <updated>1640724373921</updated>
       <workItem from="1640724375608" duration="73000" />
       <workItem from="1640952982124" duration="604000" />
-      <workItem from="1640955078067" duration="6165000" />
+      <workItem from="1640955078067" duration="6492000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1640962947657</created>
@@ -73,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640969091920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed Git logs.">
+      <created>1640993498599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640993498599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +98,7 @@
     <MESSAGE value="Added README.md." />
     <MESSAGE value="IDE settings." />
     <MESSAGE value="Added configuration file for EMR." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added configuration file for EMR." />
+    <MESSAGE value="Removed Git logs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Git logs." />
   </component>
 </project>
