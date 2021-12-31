@@ -9,6 +9,13 @@ from pyspark.sql.types import StructType as R, StructField as Fld, \
      IntegerType as Int, DecimalType as Dec, DateType as Date, \
      TimestampType as Stamp
 
+def create_spark_session():
+    spark = SparkSession \
+        .builder \
+        .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
+        .getOrCreate()
+    return spark
+
 
 def get_song_schema():
     song_schema = R([
@@ -164,10 +171,10 @@ def process_log_data(spark, input_data, output_data):
 
 
 def main():
+    spark = create_spark_session()
     input_data = "s3a://udacity-dend/"
     output_data = "s3a://udacity-dend-andreiliphd/"
-
-    process_song_data(spark, input_data, output_data)    
+    process_song_data(spark, input_data, output_data)
     process_log_data(spark, input_data, output_data)
 
 if __name__ == "__main__":
