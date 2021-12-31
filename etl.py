@@ -1,24 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@andreiliphd 
-We are having a problem billing your account. Please enter a new payment method or check with your payment provider for details on why the transaction failed. You can downgrade to GitHub Free in your Billing settings.
-You can always contact support with any questions.
-nilsme
-/
-data_lake
-Public
-Code
-Issues
-1
-Pull requests
-Actions
-Projects
-Wiki
 from datetime import datetime
 import os
 from pyspark.sql import SparkSession
