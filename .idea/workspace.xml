@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="Initial commit." />
+    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="IDE settings.">
+      <change afterPath="$PROJECT_DIR$/configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
       <updated>1640724373921</updated>
       <workItem from="1640724375608" duration="73000" />
       <workItem from="1640952982124" duration="604000" />
-      <workItem from="1640955078067" duration="1224000" />
+      <workItem from="1640955078067" duration="3427000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1640962947657</created>
@@ -48,7 +51,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640962947657</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added README.md.">
+      <created>1640963272301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640963272301</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IDE settings.">
+      <created>1640963307061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640963307061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,6 +84,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Added README.md." />
+    <MESSAGE value="IDE settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE settings." />
   </component>
 </project>
