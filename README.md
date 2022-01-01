@@ -24,6 +24,17 @@ git@github.com:andreiliphd/jurgen-spark-etl.git
 
 ---
 
+## File structure
+`configuration.json` - configuration for AWS EMR Studio to access Git repository.
+
+`etl.ipynb` - Jupyter Notebook for ETL and analytics.
+
+`etl.py` - script to run as AWS EMR step.
+
+`README.md` - instruction for this project.
+
+---
+
 ## Notebook
 In a file `etl.ipynb` you can find Jupyter Notebook for running in EMR Studio.
 
