@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="Spark session is needed.">
+    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="README.md updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       <updated>1640724373921</updated>
       <workItem from="1640724375608" duration="73000" />
       <workItem from="1640952982124" duration="604000" />
-      <workItem from="1640955078067" duration="8391000" />
+      <workItem from="1640955078067" duration="9258000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1640962947657</created>
@@ -93,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640994151776</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="README.md updated.">
+      <created>1640996790367</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640996790367</updated>
+    </task>
+    <task id="LOCAL-00009" summary="README.md updated.">
+      <created>1640997053905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640997053905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +132,7 @@
     <MESSAGE value="Removed Git logs." />
     <MESSAGE value="Spark session is not needed." />
     <MESSAGE value="Spark session is needed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spark session is needed." />
+    <MESSAGE value="README.md updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md updated." />
   </component>
 </project>

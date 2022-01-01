@@ -9,7 +9,9 @@ from pyspark.sql.types import StructType as R, StructField as Fld, \
      IntegerType as Int, DecimalType as Dec, DateType as Date, \
      TimestampType as Stamp
 
+
 def create_spark_session():
+    """Create Spark session."""
     spark = SparkSession \
         .builder \
         .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.0") \
@@ -18,6 +20,7 @@ def create_spark_session():
 
 
 def get_song_schema():
+    """Schema for songs data."""
     song_schema = R([
         Fld("num_songs", Int()),
         Fld("artist_id", Str()),
@@ -32,7 +35,21 @@ def get_song_schema():
     ])
     return song_schema
 
+
 def process_song_data(spark, input_data, output_data):
+    """
+    Load data from S3, transforms it and upload to S3.
+    Parameters
+    ----------
+    spark: session
+            Spark session
+    input_data: path
+            Path to input data.
+    output_data: path
+            Path to output data.
+
+    """
+
     # get filepath to song data file
     song_data = input_data + "song_data/*/*/*/*.json"
     
@@ -65,7 +82,9 @@ def process_song_data(spark, input_data, output_data):
     artists_table.write.parquet(output_data + "artists_table.parquet",
                                 mode = "overwrite")
 
+
 def get_log_schema():
+    """Schema for log data."""
     log_schema = R([
         Fld("artist", Str()),
         Fld("auth", Str()),
@@ -88,7 +107,20 @@ def get_log_schema():
     ])
     return log_schema
 
+
 def process_log_data(spark, input_data, output_data):
+    """
+    Load data from S3, transforms it and uploads to S3.
+    Parameters
+    ----------
+    spark: session
+            Spark session
+    input_data: path
+            Input data path
+    output_data: path
+            Output data path
+    """
+
     # get filepath to log data file
     log_data = input_data + "log-data/*/*/*.json"
 
@@ -171,11 +203,19 @@ def process_log_data(spark, input_data, output_data):
 
 
 def main():
+    """
+    The following steps are performed:
+    1.) Create or get Spark session.
+    2.) Load data from S3.
+    3.) Transforms data.
+    4.) Upload to S3 result.
+    """
     spark = create_spark_session()
     input_data = "s3a://udacity-dend/"
     output_data = "s3a://udacity-dend-andreiliphd/"
     process_song_data(spark, input_data, output_data)
     process_log_data(spark, input_data, output_data)
+
 
 if __name__ == "__main__":
     main()
