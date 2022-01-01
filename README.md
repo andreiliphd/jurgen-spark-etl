@@ -24,6 +24,10 @@ git@github.com:andreiliphd/jurgen-spark-etl.git
 
 ---
 
+## Notebook
+In a file `etl.ipynb` you can find Jupyter Notebook for running in EMR Studio.
+
+---
 
 ## Usage
 Run EMR Studio and submit steps.
