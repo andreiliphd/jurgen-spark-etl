@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="Spark session is not needed.">
-      <change beforePath="$PROJECT_DIR$/etl.py" beforeDir="false" afterPath="$PROJECT_DIR$/etl.py" afterDir="false" />
+    <list default="true" id="cd6b6ae8-96e3-49d2-a09f-066fa4407882" name="Changes" comment="Spark session is needed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <updated>1640724373921</updated>
       <workItem from="1640724375608" duration="73000" />
       <workItem from="1640952982124" duration="604000" />
-      <workItem from="1640955078067" duration="7045000" />
+      <workItem from="1640955078067" duration="8391000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1640962947657</created>
@@ -85,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640993840351</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Spark session is needed.">
+      <created>1640994151776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640994151776</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
     <MESSAGE value="Added configuration file for EMR." />
     <MESSAGE value="Removed Git logs." />
     <MESSAGE value="Spark session is not needed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spark session is not needed." />
+    <MESSAGE value="Spark session is needed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spark session is needed." />
   </component>
 </project>
